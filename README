@@ -1,4 +1,4 @@
-## MAKEFILE TARGETS
+MAKEFILE TARGETS
 
 To compile all Java files, execute
         make
@@ -25,7 +25,7 @@ To clean the build directories, execute
         make clean
 
 
-## TESTS
+TESTS
 
 Various tests can be run by executing:
         java conformance.ConformanceTests
@@ -55,7 +55,7 @@ code they are testing.
 
 The class test.SelfTest runs some basic self-tests on the testing library.
 
-## APPLICATIONS
+APPLICATIONS
 
 The naming and storage servers can be started as follows:
         java -jar dfs.jar naming
